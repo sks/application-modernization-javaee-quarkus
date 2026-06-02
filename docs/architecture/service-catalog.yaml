@@ -1,0 +1,19 @@
+services:
+  - name: service-catalog-quarkus-reactive
+    path: service-catalog-quarkus-reactive
+    runtime: quarkus
+  - name: service-catalog-quarkus-synch
+    path: service-catalog-quarkus-synch
+    runtime: quarkus
+  - name: customer-orders-backend
+    path: monolith-open-liberty-cloud-native
+    runtime: open-liberty
+  - name: frontend-shell
+    path: frontend-single-spa
+    runtime: nodejs
+  - name: frontend-catalog-widget
+    path: frontend-dojo
+    runtime: javascript
+  - name: frontend-orders-widget
+    path: frontend-monolith
+    runtime: javascript
