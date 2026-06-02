@@ -1,0 +1,6 @@
+graph TD
+    A[Customer Orders Monolith] -->|Kafka| B[Service Catalog]
+    C[Frontend Shell] --> D[Catalog Widget]
+    C --> E[Orders Widget]
+    D --> B
+    E --> A
