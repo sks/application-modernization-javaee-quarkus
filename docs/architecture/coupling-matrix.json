@@ -1,0 +1,14 @@
+{
+  "hotspots": [
+    {
+      "source": "CustomerOrderServices",
+      "target": "CustomerOrderServicesWeb",
+      "type": "compile-time"
+    },
+    {
+      "source": "Monolith",
+      "target": "Service Catalog",
+      "type": "runtime-kafka"
+    }
+  ]
+}
